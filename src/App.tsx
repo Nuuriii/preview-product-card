@@ -1,3 +1,9 @@
+import { Preview } from "./components/preview-card/preview";
+
 export const App = () => {
-   return <div>App</div>;
+   return (
+      <>
+         <Preview />
+      </>
+   );
 };
