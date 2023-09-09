@@ -11,12 +11,11 @@ export const Container = styled.div`
 
 export const Wrapper = styled.div`
    background-color: #fff;
-`;
-
-export const ImageWrapper = styled.div`
-   border-radius: 1rem 1rem 0 0;
+   border-radius: 0.7rem;
    overflow: hidden;
 `;
+
+export const ImageWrapper = styled.div``;
 
 export const Image = styled.img`
    height: 100%;
@@ -25,6 +24,8 @@ export const Image = styled.img`
 
 export const Description = styled.div`
    padding: 1.5rem 1rem;
+   display: flex;
+   flex-direction: column;
 `;
 
 export const Type = styled.h4`
@@ -62,5 +63,13 @@ export const DiscPrice = styled.small`
 export const Button = styled.button`
    background-color: hsl(158, 36%, 37%);
    color: white;
+   padding: 1rem 0;
+   display: flex;
+   justify-content: center;
    border: none;
+   font-weight: 900;
+   border-radius: 0.5rem;
+   img {
+      margin: 0 0.6rem 0 0;
+   }
 `;
