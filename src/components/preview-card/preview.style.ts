@@ -35,6 +35,7 @@ export const Type = styled.h4`
 export const Title = styled.h1`
   color: hsl(212, 21%, 14%);
   margin: 1rem 0;
+  font-size: 1rem;
 `;
 
 export const Info = styled.p`
