@@ -3,13 +3,3 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-@font-face {
-  font-family: 'montserrat', sans-serif;
-  src: url('./assets/fonts/Montserrat-VariableFont_wght.ttf');
-}
-
-@font-face {
-  font-family: 'fraunces', sans-serif;
-  src: url('./assets/fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf');
-}
