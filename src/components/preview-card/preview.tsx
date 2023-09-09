@@ -7,7 +7,9 @@ import {
    Image,
    Description,
    Type,
+   Title,
    Info,
+   PriceWrapper,
    Price,
    DiscPrice,
    Button,
@@ -22,15 +24,15 @@ export const Preview = () => {
             </ImageWrapper>
             <Description>
                <Type>Perfume</Type>
-               <h1>Gabrielle Essence Eau De Parfum</h1>
+               <Title>Gabrielle Essence Eau De Parfum</Title>
                <Info>
                   A floral, solar and voluptuous interpretation composed by
                   Olivier Polge, Perfumer-Creator for the House of CHANEL.
                </Info>
-               <div>
+               <PriceWrapper>
                   <Price>$149.99</Price>
                   <DiscPrice>$169.99</DiscPrice>
-               </div>
+               </PriceWrapper>
                <Button>
                   <img src={Cart} alt='' />
                   <span> Add to Cart</span>
