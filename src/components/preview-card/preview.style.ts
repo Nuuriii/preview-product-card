@@ -48,10 +48,14 @@ export const PriceWrapper = styled.div`
 
 export const Price = styled.p`
    color: hsl(158, 36%, 37%);
+   font-size: 1.7rem;
+   font-weight: 900;
+   margin: 0 0.9rem 0 0;
 `;
 
 export const DiscPrice = styled.small`
    color: hsl(228, 12%, 48%);
+   font-size: 0.9rem;
    text-decoration: line-through;
 `;
 
