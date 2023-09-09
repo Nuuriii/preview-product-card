@@ -1,4 +1,6 @@
 import styled from 'styled-components';
+import Fraunces from '../../assets/fonts/Fraunces-VariableFont_SOFT,WONK,opsz,wght.ttf';
+import Montserrat from '../../assets/fonts/Montserrat-VariableFont_wght.ttf';
 
 export const Container = styled.div`
   display: flex;
@@ -7,6 +9,16 @@ export const Container = styled.div`
   align-items: center;
   background-color: hsl(30, 38%, 92%);
   padding: 0 1rem;
+
+  @font-face {
+    font-family: Fraunces;
+    src: url(${Fraunces});
+  }
+
+  @font-face {
+    font-family: Montserrat;
+    src: url(${Montserrat});
+  }
 `;
 
 export const Wrapper = styled.div`
@@ -28,18 +40,24 @@ export const Description = styled.div`
   flex-direction: column;
 `;
 
-export const Type = styled.h4`
+export const Type = styled.h5`
   color: hsl(228, 12%, 48%);
+  font-family: Montserrat, sans-serif;
+  letter-spacing: 5px;
 `;
 
 export const Title = styled.h1`
   color: hsl(212, 21%, 14%);
+  font-family: Fraunces, sans-serif;
   margin: 1rem 0;
-  font-size: 1.7rem;
+  font-weight: 700;
+  font-size: 1.8rem;
 `;
 
 export const Info = styled.p`
   color: hsl(228, 12%, 48%);
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
 `;
 
 export const PriceWrapper = styled.div`

@@ -23,7 +23,7 @@ export const Preview = () => {
           <Image src={MobilePreview} />
         </ImageWrapper>
         <Description>
-          <Type>Perfume</Type>
+          <Type>PERFUME</Type>
           <Title>Gabrielle Essence Eau De Parfum</Title>
           <Info>
             A floral, solar and voluptuous interpretation composed by Olivier
