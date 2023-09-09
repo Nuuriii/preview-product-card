@@ -6,7 +6,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  <!-- - [Screenshot](#screenshot) -->
   - [Links](#links)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
@@ -26,7 +25,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://github.com/Nurrohmann/preview-product-card](https://github.com/Nurrohmann/preview-product-card)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ### Built with
@@ -35,10 +34,8 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Vite](https://vitejs.dev/) - FrontEnd tool
+- [Vite](https://vitejs.dev/) - Front End tool
 - [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
 
 ### Useful resources
 
