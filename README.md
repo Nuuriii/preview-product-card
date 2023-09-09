@@ -39,8 +39,8 @@ Users should be able to:
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Spacing Text](https://www.w3schools.com/css/css_text_spacing.asp) - This resource helped me when I was confused about setting the spacing between text
+- [Setup Prettier, Lint-Staged, and Prettier](https://javascript.plainenglish.io/streamlining-code-quality-and-collaboration-integrating-eslint-prettier-husky-and-lint-staged-22451a1a4969) - resource that helped me when I wanted to setup Husky, Prettier, Eslint
 
 <!-- ## Author
 
